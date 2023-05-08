@@ -1,5 +1,5 @@
 class CoursesController <  ApplicationController
-    #index route
+    #index courses route
     get '/courses' do
         "Im courses controller"
       end

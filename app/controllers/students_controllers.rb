@@ -1,6 +1,8 @@
 class StudentsController <  ApplicationController
-    # index route
+    # index courses route
     get '/students' do
+        students = student.all
+        students.to_json
         "Im students controller"
       end
     
