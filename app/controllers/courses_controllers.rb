@@ -1,7 +1,8 @@
 class CoursesController <  ApplicationController
     #index courses route
     get '/courses' do
-        "Im courses controller"
+      courses = Course.all
+      courses.to_json
       end
 
 end

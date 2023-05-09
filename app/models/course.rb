@@ -1,3 +1,3 @@
-class Course < ActiveRecord::Base
+class Course <ActiveRecord::Base
     belongs_to :student
 end

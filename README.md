@@ -1,5 +1,11 @@
 # Phase 3 Project Guidelines
-test
+
+links usados para imagenes: from google images (poner los links del seeds aqui)
+https://tse4.mm.bing.net/th?id=OIP.bw8GY4ABBK5HDj9FUS2luQHaFu&pid=Api&P=0
+https://i0.wp.com/static.vecteezy.com/system/resources/previews/000/433/322/original/font-design-for-word-math-with-many-numbers-and-kids-vector.jpg
+https://tse1.mm.bing.net/th?id=OIP.JsJi0DIH4NpfjYqf5UU82AHaJn&pid=Api&P=0
+
+
 ## Learning Goals
 
 - Build a web basic API with Sinatra and Active Record to support a React
