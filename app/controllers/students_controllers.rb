@@ -5,4 +5,7 @@ class StudentsController <  ApplicationController
         students.to_json(include: :courses)
     end
     
+    #students show route
+
+    
 end

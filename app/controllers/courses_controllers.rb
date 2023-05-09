@@ -4,5 +4,6 @@ class CoursesController <  ApplicationController
       courses = Course.all
       courses.to_json
       end
-
+      
+    #courses  show route
 end
