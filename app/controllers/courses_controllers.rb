@@ -3,7 +3,5 @@ class CoursesController <  ApplicationController
     get '/courses' do
       courses = Course.all
       courses.to_json
-      end
-      
-    #courses  show route
+    end
 end
