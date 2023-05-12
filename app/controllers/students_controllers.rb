@@ -7,8 +7,8 @@ class StudentsController <  ApplicationController
     
     # students show route
     get '/students/:id' do
-        student = Student.find_by(id: params[:id])
-        
+        student = Student.find_by(params[:id])
+      
       if student
         student.to_json(include: :courses)
       else
