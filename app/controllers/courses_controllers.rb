@@ -5,8 +5,8 @@ class CoursesController <  ApplicationController
       courses.to_json
     end
 
-    get '/courses' do
-      students = Student.find(params[:student_id])
+    post '/courses' do
+      students = Student.find_by(params[:student_id])
       student = students.course.create(
         name:params[:name],
         description:params[:description],

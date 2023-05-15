@@ -7,7 +7,12 @@ class StudentsController <  ApplicationController
     
     # students show route
     get '/students/:id' do
-        student = Student.find_by(params[:id])
+        
+        student = Student.find_by(id: params[:id])
         student.to_json(include: :courses)
     end
+
+    # post '/students' do
+    #     student = Student.create(params)
+    #     student.to_json(include: :courses)
 end
