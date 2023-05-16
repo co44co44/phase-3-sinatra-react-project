@@ -15,4 +15,11 @@ class CoursesController <  ApplicationController
       )
       course.to_json
     end
+
+    delete '/courses/:id' do
+      course = Course.find(params[:id])
+      course.destroy
+      course.to_json
+    end
+
 end
