@@ -6,8 +6,8 @@ class CoursesController <  ApplicationController
     end
 
     post '/courses' do
-      students = Student.find_by(params[:student_id])
-      student = students.course.create(
+      students = Student.find(params[:student_id])
+      student = student.course.create(
         name:params[:name],
         description:params[:description],
         days:params[:days],
