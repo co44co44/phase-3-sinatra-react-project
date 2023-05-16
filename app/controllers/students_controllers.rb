@@ -19,6 +19,6 @@ class StudentsController <  ApplicationController
     delete '/students' do
         country = Student.find_by(id: params[:id])
         country.destroy
-        country.to_json
+        country.to_json(include: :courses)
     end
 end
