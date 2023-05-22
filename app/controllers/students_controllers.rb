@@ -7,7 +7,7 @@ class StudentsController <  ApplicationController
     
     # students show route
     get '/students/:id' do
-        student = Student.find_by(id: params[:id])
+        student = Student.find(params[:id])
         student.to_json(include: :courses)
     end
 
@@ -19,6 +19,6 @@ class StudentsController <  ApplicationController
     delete '/students' do
         country = Student.find_by(id: params[:id])
         country.destroy
-        country.to_json(include: :courses)
+        country.to_json
     end
 end

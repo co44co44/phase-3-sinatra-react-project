@@ -1,17 +1,18 @@
 class CoursesController <  ApplicationController
-    #index courses route
+    # index courses route
     get '/courses' do
       courses = Course.all
       courses.to_json
     end
 
     post '/courses' do
-      students = Student.find(params[:student_id])
-      student = student.course.create(
+      # binding.pry
+      course = Course.create(
         name:params[:name],
         description:params[:description],
         days:params[:days],
-        image_url:params[:image_url]
+        image_url:params[:image_url],
+        student_id: params[:student_id]
       )
       course.to_json
     end
