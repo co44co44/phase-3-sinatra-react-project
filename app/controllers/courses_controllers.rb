@@ -1,10 +1,12 @@
 class CoursesController <  ApplicationController
-    # index courses route
+  
+  # index courses route: show all courses
     get '/courses' do
       courses = Course.all
       courses.to_json
     end
 
+  #adds course 
     post '/courses' do
       # binding.pry
       course = Course.create(
@@ -17,10 +19,24 @@ class CoursesController <  ApplicationController
       course.to_json
     end
 
-    delete '/courses/:id' do
+  #updates course info
+    patch '/courses/:id' do
       course = Course.find(params[:id])
-      course.destroy
+      course.update(
+        name:params[:name],
+        description:params[:description],
+        days:params[:days],
+        image_url:params[:image_url]
+      )
       course.to_json
-    end
+  end 
+
+  #deletes a course
+    # delete '/courses/:id' do
+    #   course = Course.find(params[:id])
+    #   course.destroy
+    #   course.to_json
+    # end
+
 
 end
