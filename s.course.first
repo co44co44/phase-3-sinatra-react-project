@@ -1,0 +1,29 @@
+=> [[32m#<Course:0x000055cf2e4f33c0[0m
+  id: [1;34m3[0m,
+  name: [31m[1;31m"[0m[31mMath[1;31m"[0m[31m[0m,
+  description: [1;34m2[0m,
+  days: [31m[1;31m"[0m[31mSaturdays[1;31m"[0m[31m[0m,
+  image_url: [31m[1;31m"[0m[31mhttps://tse3.mm.bing.net/th?id=OIP.UhJfEO3fJuFkYnWdOvYP-AHaFu&pid=Api&P=0[1;31m"[0m[31m[0m,
+  student_id: [1;34m2[0m[32m>[0m,
+ [32m#<Course:0x000055cf2e5101f0[0m
+  id: [1;34m4[0m,
+  name: [31m[1;31m"[0m[31mELA[1;31m"[0m[31m[0m,
+  description: [1;34m2[0m,
+  days: [31m[1;31m"[0m[31mSundays[1;31m"[0m[31m[0m,
+  image_url: [31m[1;31m"[0m[31mhttps://m.media-amazon.com/images/I/51GjoUtdh2L._SX387_BO1,204,203,200_.jpg[1;31m"[0m[31m[0m,
+  student_id: [1;34m2[0m[32m>[0m,
+ [32m#<Course:0x000055cf2e510088[0m
+  id: [1;34m14[0m,
+  name: [31m[1;31m"[0m[31mCoding[1;31m"[0m[31m[0m,
+  description: [1;34m1[0m,
+  days: [31m[1;31m"[0m[31mTuesdays[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://s.yimg.com/fz/api/res/1.2/uq7xIraLfqaxKLlPDUqVSg--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/173a19a6-5cac-3669-8d99-ede5b119bb70/t_500x300[1;31m"[0m[31m[0m,
+  student_id: [1;34m2[0m[32m>[0m,
+ [32m#<Course:0x000055cf2ce0ed08[0m
+  id: [1;34m16[0m,
+  name: [31m[1;31m"[0m[31mScience[1;31m"[0m[31m[0m,
+  description: [1;34m4[0m,
+  days: [31m[1;31m"[0m[31mThursdays[1;31m"[0m[31m[0m,
+  image_url: [31m[1;31m"[0m[31mhttps://m.media-amazon.com/images/I/51P8mZLn60L._SX218_BO1,204,203,200_QL40_FMwebp_.jpg[1;31m"[0m[31m[0m,
+  student_id: [1;34m2[0m[32m>[0m]
